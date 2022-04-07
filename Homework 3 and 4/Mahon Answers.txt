@@ -1,0 +1,31 @@
+Energy function as stopping condition delta e or delta y
+	Use the delta y is equal to zero
+
+What is equilibrium as described in the Bam net
+	Typically where the y and x are not changing very much
+	How much x layer and y layer changin wit respect to each other
+	Can be an implementation specific
+
+Hopfield update rule vs BAM rule 
+	xi + sum(xw)
+	sum(xw)
+	Run hopfield for initial input
+	Set target values based on input
+	Ysubi is xsubi first time through
+	Next time through you don't have the xsubi
+
+Batch versus one by one
+	Current understanding is broadcast vs update all independently below a certain variance
+	Randomization is characteristic of the algorithm
+		Prevent the net from converging to a bad solution
+	Batch would mess up the hopfield
+	Batch one unit
+	Plug all Xi's into a matrix, element wise multiply, sum thru the rows
+
+BAM net update in random, sequential, or batch mode
+	batch no shared information
+
+Delayed midterm
+	
+Submission hierarchy
+	Single zip file
